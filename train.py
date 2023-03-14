@@ -88,6 +88,3 @@ trainer = transformers.Trainer(model = QA_model,
 
 # train
 trainer.train()
-
-
-
