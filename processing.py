@@ -34,7 +34,7 @@ class Create_datasetDict:
         icqa = self.preprocessing()
         data = {'id': icqa[0], 'context': icqa[1], 'question': icqa[2], 'answer': icqa[3]}
         
-        # Building dataset with format similar to SQuAD 2.0 
+        # Building dataset with format same to SQuAD 2.0 
         df = pd.DataFrame(data = data)
         train_df, valid_df = train_test_split(df, test_size = test_size, random_state = 1, shuffle = True)
         
