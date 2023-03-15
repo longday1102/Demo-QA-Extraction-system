@@ -17,17 +17,17 @@ Below are some test results:
 
 ![longhoang06_fine-tuned-viquad-hgf-·-Hugging-Face-and-2-more-pages-Personal-Microsoft_-Edge-2023-03-1](https://user-images.githubusercontent.com/121651344/225209165-56f4e858-91ae-4d01-b7e8-51728f85d792.gif)
 <p align="center">
-<b>Figure.1</b>
+<b>Result.1</b>
 </p>
 
 ![longhoang06_fine-tuned-viquad-hgf-·-Hugging-Face-and-3-more-pages-Personal-Microsoft_-Edge-2023-03-1](https://user-images.githubusercontent.com/121651344/225249920-d70aa8df-f131-424e-8b55-0fe981ce2e2c.gif)
 <p align="center">
-<b>Figure.2</b>
+<b>Result.2</b>
 </p>
 
 ![longhoang06_fine-tuned-viquad-hgf-·-Hugging-Face-and-3-more-pages-Personal-Microsoft_-Edge-2023-03-1_3](https://user-images.githubusercontent.com/121651344/225250177-dbea9b6a-a668-4a75-a727-cd25247f3c49.gif)
 <p align="center">
-<b>Figure.3</b>
+<b>Result.3</b>
 </p>
 
 Relatively good, isn't it? 😅
