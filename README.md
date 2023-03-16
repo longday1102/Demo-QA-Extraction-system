@@ -10,7 +10,7 @@ The dataset used is [UIT-ViQuAD](https://github.com/windhashira06/Demo-QA-Extrac
 ## Evaluation
 The dataset after processing is divided with test size is 0.06. Below are the evaluation results on test set:                                           
 | EM | F1-SCORE |
-|----|--------- |
+|:----:|:---------:|
 | 52.38 | 77.67 |
 ## Test
 Below are some test results:                                          
