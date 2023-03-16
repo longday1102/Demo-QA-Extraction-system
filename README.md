@@ -30,6 +30,6 @@ Below are some test results:
 <b>Test.3</b>
 </p>
 
-Relatively good, isn't it? 😅
+Relatively good 😅
 
 
