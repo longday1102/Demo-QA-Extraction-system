@@ -1,14 +1,14 @@
 # Question & Answering Extraction system
 ## Introduction
-This source code is made based on [Hugging Face's tutorial on QA Extraction](https://huggingface.co/course/chapter7/7?fw=pt) using Transformer architecture language model. The input to the system is a context and a question, the system will extract the answer in that context.                                                          
+This source code is made based on [Hugging Face's tutorial on QA Extraction](https://huggingface.co/course/chapter7/7?fw=pt) using the Transformer architecture language model. The input to the system is a context and a question, the system will extract the answer in that context.                                                          
 ## Model
-The model used is [bhavikardeshna/xlm-roberta-base-vietnamese](https://huggingface.co/bhavikardeshna/xlm-roberta-base-vietnamese), which is a language model based on [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta), trained on Vietnamese dataset.                                                                                    
+The model used is [bhavikardeshna/xlm-roberta-base-vietnamese](https://huggingface.co/bhavikardeshna/xlm-roberta-base-vietnamese), which is a language model based on [RoBERTa](https://huggingface.co/docs/transformers/model_doc/roberta), trained on the Vietnamese dataset.                                                                                    
 The model is described in [Cascading Adaptors to Leverage English Data to Improve Performance of
 Question Answering for Low-Resource Languages](https://arxiv.org/pdf/2112.09866v1.pdf) paper.
 ## Datasets
-The dataset used is [UIT-ViQuAD](https://github.com/windhashira06/Demo-QA-Extraction-system/tree/main/Dataset). This dataset comprises over 23,000 human-generated question-answer pairs based on 5,109 passages of 174 Vietnamese articles from Wikipedia. However in processing, I eliminated more than 3000 questions with no answers.
+The dataset used is [UIT-ViQuAD](https://github.com/windhashira06/Demo-QA-Extraction-system/tree/main/Dataset). This dataset comprises over 23,000 human-generated question-answer pairs based on 5,109 passages from 174 Vietnamese articles from Wikipedia. However, in processing, I eliminated more than 3000 questions with no answers.
 ## Evaluation
-The dataset after processing is divided with test size is 0.06. Below are the evaluation results on test set:                                           
+The dataset after processing is divided with test size is 0.06. Below are the evaluation results of the test set:                                           
 | EM | F1-SCORE |
 |:----:|:---------:|
 | 52.38 | 77.67 |
